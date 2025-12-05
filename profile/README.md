@@ -1,141 +1,109 @@
-# **ArkVertex — The Primitive-Powered 3D Interaction Layer for the Modern Web**
-
+# ArkVertex — AI-Powered 3D Creation for Everyone on the Web.  
 **Tagline:**  
-**“Turn any website into a living geometric playground.”**
+**“The AI 3D platform that makes the web feel alive.”**
 
 ---
 
-## **Core Philosophy**
-Everything is built from clean, parametric primitives and operations you already mastered  
-(boxes, cylinders, spheres, toruses, CSG booleans, extrusions, lathes, handlers, rounded edges, perfect LODs).  
-No imported low-poly blobs, no heavy GLBs.  
-Pure code-driven geometry that loads in **<50 kb** and runs at **120 fps** even on phones.
+## Overview and Goal  
+ArkVertex is a **3D AI platform for the web**, focused on providing design tools, AI-driven code, and no-code creation workflows to enhance 3D experiences with **superior performance**.  
+It serves **developers, designers, and non-technical users**, enabling the creation of interactive, parametric 3D assets and companions built from:
+
+- Primitives (boxes, cylinders, spheres, toruses)  
+- CSG booleans  
+- Extrusions and lathes  
+- Handlers and rounded edges  
+- Perfect LODs
+
+The platform emphasizes **pure code-driven geometry** that loads in **<50 kb** and runs at **120 fps**, even on phones—no imported low-poly blobs or heavy GLB files.  
+All products share one unified geometry engine based on **primitives**, **CSG operations**, and **procedural effects**, ensuring consistency, editability, and real-time performance.
+
+### ArkVertex solves key challenges:
+- **For non-technical users:** Easily add interactive 3D companions to websites without coding.  
+- **For developers and designers:** Create performant, ready-to-use 3D assets for games, websites, and tools with runtime generation and built-in effects.
 
 ---
 
-## **Phase 1 – EmbedRobot (Quick Revenue Entry Point)**
-A no-code platform where users design a simple 3D robot (primitives + CSG) and embed it on their site.
+## Core Philosophy  
+Everything is built from **parametric primitives and operations**, ensuring:
 
-- The robot flies/hovers, chats via AI, and performs predefined actions tied to AI instructions.  
-- Example: AI says *"express sad"* → triggers animation (e.g., drooping eyes, color shift).  
-- Exports to **Three.js** for ultra-fast loading (**<100 kb bundles**).  
-- No custom code needed — just copy-paste an embed snippet.
+- **100% geometric and editable:** Assets are generated from code for instant customization.  
+- **High performance:** Ultra-light bundles (**<100 kb**) for fast loading and smooth rendering.  
+- **AI integration:** Link designs to AI-driven behaviors, animations, and interactions.  
+- **Versatility:** Export to **Three.js** or **Babylon.js** for seamless integration.
 
----
-
-## **Phase 2 – Full ArkVertex Expansion**
-A full “design engine” where users create entire families of geometric companions and environments.
-
-- All built on the same primitive DNA.
-- Open-source library with monetized API keys.
-- Imported via npm/CDN.
-- Users design creatures/environments in your UI and export to Three.js/Babylon.js.
-- Link AI-driven actions (1, 2, 3…) to built-in animations (laugh, jump, glow) or custom JS functions.
+No heavy dependencies—just **pure, alive geometry** that feels interactive and responsive.
 
 ---
 
-## **The ArkVertex Collection**
-All share one dashboard, one subscription.  
-Start simple with embeds, scale to advanced integrations.
-
-### **FlyBots**  
-The original flying robots (tens of thousands of combinations).
-
-### **GroundCrew**  
-Walking, rolling, crawling geometric creatures (cube spiders, cylinder dogs, torus snakes…).
-
-### **HoverHelpers**  
-Static or slowly rotating geometric sculptures that light up and talk on hover.
-
-### **PortalPrisms**  
-Tiny interactive portals that unfold into micro-worlds on click.
-
-### **GeoBackgrounds**  
-Full-screen animated geometric environments (crystal fields, floating polyhedron skies, neon grid cities).
-
-### **SkillOrbs**  
-Floating labeled orbs that orbit the main bot and highlight when relevant.
-
-### **ReactionGeometry**  
-Geometry that physically reacts in real time (e.g., subtle cracking during certain triggers).
-
-All are **<100 kb**, **100% parametric**, and instantly generated from editable recipes.
+## Products  
 
 ---
 
-## **The Editor You'll Use Every Day**
-A Svelte + Tailwind + Babylon.js playground where you can:
+### **Phase 1: EmbedRobot (Quick Entry for Non-Technicals)**  
+A **no-code platform** to design and embed a simple, cute 3D robot on your website.
 
-- Drag sliders for rounding radius, segment count, taper, twist  
-- Stack CSG operations in a node-like tree  
-- Live-preview LOD switching  
-- Save any creation as a **species** to reuse or remix  
+**Design Process:**  
+Use primitives and CSG to create a robot that matches your brand (colors, shapes, style).
 
----
+**Embedding:**  
+Copy-paste **one line of code** to add it to your site.
 
-## **Monthly Drops for Ongoing Revenue**
-Every 4–6 weeks you release a new **Species Pack**:
+**AI Features:**  
+Purchase an AI key to enable chatting.  
+The robot can talk to visitors about your services, products, or website content, performing actions like animations (e.g., drooping eyes, color shifts).
 
-- **Neon Angels** — glowing winged dodecahedrons  
-- **Crystal Swarm** — 100 tiny animated gems that follow the main bot  
-- **Retro Futurist** — 1980s chrome primitives with scanline shaders  
+**Exports:**  
+Bundles to **Three.js** for fast loading (**<100 kb**).
 
-New species = instant user upgrades.
-
----
-
-## **Pricing (Indie-Friendly Model)**
-
-| Tier | Price | Features |
-|------|--------|----------|
-| **Starter** | **$29/mo** | 1 active creature + basic primitives |
-| **Creator** | **$79/mo** | Unlimited creatures + full CSG + all species packs |
-| **Studio** | **$199/mo** | White-label + custom species commissions |
+**Problem Solved:**  
+Non-technical site owners can make their websites interactive with a companion that **explains the site**, **engages visitors**, and **boosts retention**—no custom code required.
 
 ---
 
-## **This is ArkVertex**
-The only embeddable 3D layer that is:
+### **Phase 2: Design Tool for Assets (For Coders and Non-Coders)**  
+A full design engine for creating 3D assets, companions, and environments.
 
-- **100% geometric**  
-- **100% real-time editable**  
-- **Actually feels alive**  
+**Design Process:**  
+Build assets (e.g., swords, creatures, sculptures) using primitives, CSG, and effects.  
+Free to design and download.  
+AI-generated designs (e.g., “flying robot with tentacles”) require payment.
+
+**Libraries Included:**  
+Two open-source libraries:  
+- One for **Three.js**  
+- One for **Babylon.js**  
+These read ArkVertex designs and render them at runtime via npm/CDN imports.
+
+**Features:**  
+- Stack operations in a **node-like tree**  
+- Drag sliders for parameters (round radius, segments, taper, twist)  
+- Live-preview LODs  
+- Save reusable **species**  
+- Link AI actions (laugh, jump, glow) to animations or custom JS functions
+
+**Problems Solved:**  
+- **Performance:** Pure runtime-generated geometry—no GLTF or mesh files needed.  
+- **Ease of Use:** Exports ready-to-use meshes with pre-applied effects, glow, and behaviors.  
+Perfect for **web games**, **websites**, or **3D tools**.
+
+**Monetization:**  
+Free core tool; paid API keys for AI features and advanced integrations.
+
+---
+
+### **Phase 3: Community Marketplace**  
+A marketplace where users share and sell creature templates, assets, and **species packs**.
+
+**Features:**  
+- Browse, buy, and sell parametric designs  
+- Platform takes a cut on each sale
+
+**Integration:**  
+All items use the same geometry engine, ensuring cross-compatibility.
+
+**Goal:**  
+Foster a community for **remixing**, **monetizing**, and **sharing** 3D creations with ongoing revenue from transactions.
 
 ---
 
-## **Enhancements and Creative Ideas**
-
-### **AI-Generated Designs**
-Generate primitive setups from prompts (e.g., *“flying robot with tentacles”* → suggested CSG recipe).
-
-### **Community Marketplace**
-Users share/sell creature templates; you take a cut.
-
-### **WebXR Auto-Mode**
-One-click AR/VR deployment; creatures become room-scale assistants.
-
-### **Physics Integration**
-Simple physics (bounce, drop, gravity moods) via lightweight libs.
-
-### **Themed Packs**
-Seasonal or niche DLC (sci-fi primitives, cute critters, glowing artifacts).
-
-### **Analytics Layer**
-Track interactions; premium users get dashboards.
-
-### **Hybrid Exports**
-Mix Three.js for lighter projects and Babylon.js for advanced effects.
-
-### **Gamification**
-Creatures “level up” primitives based on usage (unlock effects, glow, behaviors).
-
-### **Procedural Worlds**
-Input seeds for infinite geometric environments.
-
-### **Voice-Activated Actions**
-Real-time geometry reactions during voice interactions.
-
-### **Collaborative Editing**
-Real-time multi-user design sessions with versioning.
-
----
+Future products will expand on this foundation, but these form the core platform today—unified under a single dashboard and subscription model.
