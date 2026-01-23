@@ -1,57 +1,69 @@
 # ArkVertex
+**A BIM/FEM engine on Babylon.js — like Tailwind for building information and finite element modeling.**
 
-**A code-first parametric 3D platform — like Tailwind for 3D.**
+ArkVertex is a **developer-first 3D BIM/FEM engine** built directly on **Babylon.js**, designed to enable rapid development of **custom parametric BIM and FEM software** entirely in the browser.
 
-ArkVertex is a **developer-first 3D engine** designed to build **parametric, component-based web applications**. It provides a large collection of **assets, primitives, and reusable components**, along with **CAD-style utilities** like CSG and BREP operations.  
+It provides powerful **parametric primitives, reusable components**, and essential **CAD/BIM utilities** like CSG, BREP operations, full **IFC** and **DXF** import/export support, plus lightweight FEM analysis building blocks.
 
-Developers can use ArkVertex to create **lightweight CAD-like apps, games, interactive visualizations, or custom 3D tools**, all directly in the browser. Assets can be anything from **swords and furniture to building concepts**, making it a versatile platform for **parametric, web-native 3D development**.
+Developers and teams use ArkVertex to create **custom BIM viewers**, **product configurators**, **structural analysis tools**, **facility management apps**, **digital twins**, or specialized **FEM simulation interfaces** — all web-native, performant, and extensible.
+
+Assets range from parametric building elements and structural components to full IFC/DXF-derived models, making it ideal for AEC (Architecture, Engineering, Construction) workflows.
 
 ---
-
 ## Key Features
+* **Parametric BIM/FEM primitives and components**  
+  Create objects like `new Beam(length, section, material)`, `new Slab(thickness, reinforcement, span)`, `new Wall(height, layers, insulation)`, or fully custom parametric entities with IFC/DXF compatibility.
 
-* **Parametric primitives and components**  
-  Create objects like `new Sword(length, width, curve)`, `new Wall(height, width, material)`, or custom parametric shapes.
+* **Full IFC & DXF support**  
+  Native import, parsing, export, and manipulation of **IFC** (Industry Foundation Classes) and **DXF** files — read geometry, properties, hierarchies, and metadata directly in the browser.
 
-* **Large asset library**  
-  Ready-to-use 3D shapes, building concepts, game props, and interactive components for fast development.
+* **CAD/BIM-style utilities**  
+  Built-in CSG, BREP, boolean operations, parametric sweeps/extrusions, clash detection basics, and lightweight FEM mesh generation for structural simulations.
 
-* **CAD-style utilities**  
-  Support for CSG, BREP, and parametric operations for building app logic and workflows.
+* **Built on Babylon.js**  
+  Leverages Babylon.js for high-performance WebGL/WebGPU rendering, PBR materials, real-time interactivity, animations, and cross-browser compatibility.
 
-* **Code-based shaders and animations**  
-  Define interactivity, visual effects, and procedural animations entirely through code.
+* **Code-based materials, shaders, and analysis**  
+  Define custom shaders, procedural textures, structural visualizations, load diagrams, or simulation results entirely through JavaScript/TypeScript.
 
 * **Web-native and lightweight**  
-  Optimized for browser performance and modern JavaScript workflows.
+  Optimized for browser performance — no heavy plugins, runs on desktops, tablets, and mobile devices with modern JavaScript workflows.
 
 * **Extensible and modular**  
-  Add new primitives, components, or utilities as your application grows.
+  Easily extend with new primitives, IFC property sets, FEM solvers, or domain-specific tools as your custom software grows.
 
 ---
-
 ## Vision
+ArkVertex is the **foundation for custom BIM/FEM applications on the web**, empowering developers and companies to:
+* Build **specialized parametric BIM tools** (viewers, editors, checkers)
+* Develop **custom FEM analysis interfaces** for structural, thermal, or acoustic simulations
+* Create **web-based digital twins**, facility management, or asset tracking systems
+* Rapidly prototype and deploy **industry-specific 3D AEC/FEM software**
+* Deliver **IFC/DXF-native experiences** without conversion pipelines
 
-ArkVertex is a **base engine for 3D applications on the web**, enabling developers to:
-
-* Build **parametric CAD-like apps**  
-* Create **games, interactive visualizations, or product configurators**  
-* Use a **rich library of reusable 3D components and assets**  
-* Implement **lightweight web-native 3D experiences**  
-* Rapidly prototype **custom workflows and interactive 3D tools**
-
-It is **not a full CAD or BIM kernel**, but it provides the **building blocks for versatile parametric 3D applications entirely in code**.
+It is **not a complete off-the-shelf BIM/FEM suite** like Revit or ANSYS, but the **open, code-first building blocks** to create tailored, high-performance parametric 3D software entirely in the browser.
 
 ---
+## Custom Software Development Service
+We offer professional **custom BIM/FEM software development** using ArkVertex as the core engine.
 
+Whether you need:
+- A branded web-based BIM viewer/editor with IFC/DXF support
+- A parametric structural design configurator
+- A lightweight FEM pre/post-processor in the browser
+- Integration of BIM data with simulations, IoT, or digital twins
+- Enterprise-grade custom tools for AEC workflows
+
+Our team builds fully bespoke solutions — fast, scalable, and web-native.
+
+Contact us to discuss your project.
+
+---
 ## Status
+ArkVertex is **early-stage and under active development**.
 
-ArkVertex is **early-stage and under active development**.  
-
-Tooling, modules, and example apps will be gradually released for early access.
+Core Babylon.js integration, IFC/DXF loaders, parametric BIM primitives, and example custom apps will be gradually released for early access.
 
 ---
-
 **ArkVertex**  
-
-*The code-first 3D engine for parametric modeling, reusable components, and versatile web-native 3D applications.*
+*The code-first BIM/FEM engine on Babylon.js — for parametric modeling, full IFC/DXF support, and building custom web-native BIM/FEM software.*
